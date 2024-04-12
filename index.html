@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Dishcovery</title>
+    <meta name="title" content="Dishcovery">
+    <meta name="description" content="">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - preload images
+  -->
+
+
+</head>
+<style>
+    #slide1 {
+        height: 100px;
+    }
+</style>
+
+<body id="top">
+
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">Dishcovery</p>
+    </div>
+
+
+
+
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+
+                </div>
+
+                <span class="span">
+
+                </span>
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <div class="icon">
+
+                </div>
+
+                <span class="span"></span>
+            </div>
+
+            <a href="tel:+11234567890" class="topbar-item link">
+                <div class="icon">
+
+                </div>
+
+                <span class="span"></span>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="https://mail.google.com/" target="_blank" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">bhumikaporiya16@gmail.com</span>
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/DISHCOVERY (1).svg" width="160" height="50" alt="Dishcovery - Home">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/DISHCOVERY.png" width="160" height="50" alt="Dishcovery - Home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+
+                    <!-- <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li> -->
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+
+                    <!-- <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li> -->
+
+                    <li class="navbar-item">
+                        <a href="#contactUs" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Contact US</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+
+                    <address class="body-4">
+                        Restaurant St, Delicious City, <br>
+                        London 9578, UK
+                    </address>
+
+                    <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+                    <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Booking Request</p>
+
+                    <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+                        +88-123-123456
+                    </a>
+                </div>
+
+            </nav>
+
+            <a href="#RecipeGenerator" class="btn btn-secondary">
+                <span class="text text-1">Find A Recipe</span>
+
+                <span class="text text-2" aria-hidden="true">Find A Recipe</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="hero text-center" aria-label="home" id="home">
+
+                <ul class="hero-slider" data-hero-slider>
+
+                    <li class="slider-item active" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt=""
+                                class="img-cover">
+                        </div>
+
+                        <p class="label-2 section-subtitle">Traditional Cuisine</p>
+
+                        <h1 class="display-1 hero-title">
+                            For the love of <br>
+                            delicious food
+                        </h1>
+
+
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt=""
+                                class="img-cover">
+                        </div>
+
+                        <p class="label-2 section-subtitle ">delightful experience</p>
+
+                        <h1 class="display-1 hero-title">
+                            Flavors Inspired by <br>
+                            the Seasons
+                        </h1>
+
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt=""
+                                class="img-cover">
+                        </div>
+
+                        <p class="label-2 section-subtitle">amazing & delicious</p>
+
+                        <h1 class="display-1 hero-title">
+                            Where every flavor <br>
+                            tells a story
+                        </h1>
+
+
+                    </li>
+
+                </ul>
+
+                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                    <ion-icon name="chevron-back"></ion-icon>
+                </button>
+
+                <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </button>
+
+            </section>
+
+
+
+
+
+            <!-- 
+        - #SERVICE
+      -->
+
+            <section class="section service bg-black-10 text-center" aria-label="service">
+                <div class="container">
+
+                    <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+                    <h2 class="headline-1 section-title"></h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="service-card">
+
+                                <a href="#">
+                                    <figure class="card-banner ">
+                                        <img src=".\assets\images\Firefly pancakes and honey being poured from top on a plate 7886.jpg" width="285" height="336"
+                                            alt="Breakfast">
+                                    </figure>
+                                </a>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Breakfast</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <a href="#">
+                                    <figure class="card-banner ">
+                                        <img src=".\assets\images\Firefly a delicious appetizer 98095.jpg" width="285" height="336"
+                                            alt="Breakfast">
+                                    </figure>
+                                </a>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Appetizers</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <a href="#">
+                                    <figure class="card-banner ">
+                                        <img src=".\assets\images\Firefly a delicious dessert 7886.jpg" width="285" height="336"
+                                            alt="Breakfast">
+                                    </figure>
+                                </a>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Dessert</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+                        class="shape shape-1 move-anim">
+                    <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+                        class="shape shape-2 move-anim">
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #ABOUT
+      -->
+
+            <section class="section about text-center" aria-labelledby="about-label" id="about">
+                <div class="container" style="height: 800px;">
+
+                    <div class="about-content">
+
+                        <p class="label-2 section-subtitle" id="about-label">About The Maker</p>
+
+                        <h2 class="headline-1 section-title">Finding a recepie was difficult</h2>
+
+                        <p class="section-text">
+                            As a B.Tech student from Lovely Professional University, I've created a platform where users can input ingredients to find recipes. Using my Front-end Web Development skills, I've made it easy to discover suitable recipes with a click. Let's simplify cooking, reduce food waste, and promote healthier eating habits together!
+                        </p>
+
+                        <div class="contact-label">Contact us at</div>
+
+                        <a href="tel:+804001234567"
+                            class="body-1 contact-number hover-underline">bhumikaporiya16@gmail.com</a>
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="text text-1">Read More</span>
+
+                            <span class="text text-2" aria-hidden="true">Read More</span>
+                        </a>
+
+                    </div>
+
+                    <div class="row1">
+                        <div class="col-9 offset-3">
+                            <figure class="about-banner">
+
+                                <!-- <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+                  class="w-100" data-parallax-item data-parallax-speed="1"> -->
+
+                                <div class="abs-img abs-img-1 has-before">
+                                    <img src="./assets/images/about-abs-image.jpg" width="285" height="285" alt=""
+                                        class="w-100">
+                                </div>
+
+                                <!-- <div class="abs-img abs-img-2 has-before">
+                  <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+                </div> -->
+
+                            </figure>
+
+                            <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt=""
+                                class="shape">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- 
+        -RecipeGenerator 
+      -->
+            <section class="reservation" id="RecipeGenerator">
+                <div class="container" style="height: 800px;">
+
+                    <div class="form reservation-form bg-black-10">
+
+                        <form action="" class="form-left">
+
+                            <h2 class="headline-1 text-center">Generate your recipe</h2>
+
+                            <p class="form-text text-center">
+                                List the ingredients you have with you.
+                            </p>
+
+
+                            <textarea name="message" placeholder="Ingredients (Separated by , )" autocomplete="off" class="input-field"
+                                id="ing"></textarea>
+                            
+                            <button id="generateButton" type="button" class="btn btn-secondary">
+                                <span class="text">Generate</span>
+                            </button>
+
+                            <div id="recipeDisplay"></div>
+
+
+                        </form>
+                        <div id="output"></div>
+
+                        <div class="form-right text-center"
+                            style="background-image: url('./assets/images/form-pattern.png')">
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+            <!-- 
+        - #Contact us
+      -->
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png') "
+                id="contactUs">
+
+                <h2 class="headline-1 text-center">Contact Us</h2>
+
+                <p class="contact-label">Email</p>
+
+                <a href="tel:+88123123456" class="body-1 contact-number hover-underline">bhumikaporiya16@gmail.com</a>
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Location</p>
+
+                <address class="body-4">
+                    DishCovery st, Delicious City, <br>
+                    India
+                </address>
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <!-- 
+    - #BACK TO TOP
+  -->
+
+            <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+                <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+            </a>
+
+
+
+
+
+            <!-- 
+    - custom js link
+  -->
+            <script src="./assets/js/script.js"></script>
+
+            <!-- 
+    - ionicon link
+  -->
+
+
+            <script>
+                // Predefined recipes
+                const recipes = {
+                    "pav bhaji": {
+                        name: "Pav Bhaji",
+                        ingredients: ["potatoes", "tomatoes", "onions", "capsicum", "peas", "butter", "spices", "pav"],
+                        instructions: "1. Boil and mash the vegetables. 2. Cook them with spices. 3. Serve hot with buttered pav."
+                    },
+                    "lasagna": {
+                        name: "Lasagna",
+                        ingredients: ["lasagna noodles", "ground beef", "tomato sauce", "ricotta cheese", "mozzarella cheese", "parmesan cheese", "garlic", "onion", "basil", "oregano"],
+                        instructions: "1. Cook lasagna noodles according to package instructions. 2. Brown ground beef with garlic and onion. 3. Add tomato sauce, basil, and oregano. 4. Layer noodles, sauce, and cheeses in a baking dish. 5. Bake at 375°F for 30 minutes."
+                    },
+                    "butter chicken": {
+                        name: "Butter Chicken",
+                        ingredients: ["chicken", "butter", "tomatoes", "cream", "spices"],
+                        instructions: "1. Marinate chicken in spices and yogurt. 2. Cook marinated chicken in butter. 3. Prepare a tomato-based sauce with cream. 4. Add cooked chicken to the sauce. 5. Simmer until fully cooked. 6. Serve hot with rice or naan."
+                    },
+                    "paneer tikka": {
+                        name: "Paneer Tikka",
+                        ingredients: ["paneer", "bell peppers", "onions", "yogurt", "spices"],
+                        instructions: "1. Marinate paneer, bell peppers, and onions in yogurt and spices. 2. Skewer them and grill until charred. 3. Serve hot with mint chutney."
+                    },
+                    "mac and cheese": {
+                        name: "Mac and Cheese",
+                        ingredients: ["macaroni", "cheddar cheese", "milk", "butter", "flour"],
+                        instructions: "1. Cook macaroni according to package instructions. 2. Make a cheese sauce by melting butter, adding flour, then milk and cheese. 3. Mix cooked macaroni with cheese sauce. 4. Bake until bubbly."
+                    },
+                    "chicken tikka masala": {
+                        name: "Chicken Tikka Masala",
+                        ingredients: ["chicken", "yogurt", "tomatoes", "cream", "spices"],
+                        instructions: "1. Marinate chicken in yogurt and spices. 2. Grill or roast marinated chicken until cooked. 3. Prepare a tomato-based sauce with cream and spices. 4. Add cooked chicken to the sauce. 5. Simmer until fully cooked. 6. Serve hot with rice or naan."
+                    },
+                    "hamburger": {
+                        name: "Hamburger",
+                        ingredients: ["ground beef", "hamburger buns", "lettuce", "tomato", "onion", "cheese", "ketchup", "mustard"],
+                        instructions: "1. Form ground beef into patties and season with salt and pepper. 2. Grill or pan-fry patties until cooked to desired doneness. 3. Toast hamburger buns. 4. Assemble burgers with lettuce, tomato, onion, cheese, ketchup, and mustard."
+                    },
+                    "chocolate chip cookies": {
+                        name: "Chocolate Chip Cookies",
+                        ingredients: ["flour", "butter", "sugar", "brown sugar", "eggs", "vanilla extract", "chocolate chips", "baking soda", "salt"],
+                        instructions: "1. Cream butter and sugars together. 2. Beat in eggs and vanilla extract. 3. Mix in dry ingredients until well combined. 4. Stir in chocolate chips. 5. Drop dough by spoonfuls onto baking sheet. 6. Bake at 375°F for 8-10 minutes."
+                    }
+                };
+
+                // Function to generate a recipe based on input ingredients
+                function generateRecipe(ingredients) {
+                    const matchingRecipes = [];
+                    for (const recipeName in recipes) {
+                        const recipeIngredients = recipes[recipeName].ingredients;
+                        if (ingredients.every(ingredient => recipeIngredients.includes(ingredient))) {
+                            matchingRecipes.push(recipes[recipeName]);
+                        }
+                    }
+                    return matchingRecipes.length > 0 ? matchingRecipes : "No recipes found for the given ingredients.";
+                }
+
+                // Function to display the recipe
+                function displayRecipe(recipes) {
+                    const recipeDisplayDiv = document.getElementById("recipeDisplay");
+                    if (typeof recipes === 'string') {
+                        recipeDisplayDiv.textContent = recipes; // Display message if no recipes found
+                    } else {
+                        let html = "<h3>Recipes</h3>";
+                        recipes.forEach(recipe => {
+                            html += `
+                        <div>
+                          <h4>${recipe.name}</h4>
+                          <p><strong>Ingredients:</strong> ${recipe.ingredients.join(", ")}</p>
+                          <p><strong>Instructions:</strong> ${recipe.instructions}</p>
+                        </div>
+                      `;
+                        });
+                        recipeDisplayDiv.innerHTML = html;
+                    }
+                }
+
+                // Function to handle recipe generation based on textarea input
+                function handleRecipeGeneration() {
+                    const input = document.getElementById("ing").value.trim().toLowerCase();
+                    if (input) {
+                        const ingredients = input.split(",").map(ingredient => ingredient.trim());
+                        const recipes = generateRecipe(ingredients);
+                        displayRecipe(recipes);
+                    } else {
+                        alert("Please enter ingredients in the textarea.");
+                    }
+                }
+
+                // Add event listener to the button
+                document.getElementById("generateButton").addEventListener("click", handleRecipeGeneration);
+            </script>
+
+
+
+
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
